@@ -63,7 +63,8 @@ const store = createStore(todoApp);
 const FilterLink = ({
 	filter,
 	currentFilter,
-	children
+	children,
+	onClick
 }) => {
 	if (filter === currentFilter){
 		return <span>{children}</span>
@@ -72,10 +73,7 @@ const FilterLink = ({
 		<a href="#"
 			onClick={e => {
 				e.preventDefault();
-				store.dispatch({
-					type: 'SET_VISIBILITY_FILTER',
-					filter
-				});
+				onClick(filter);
 			}}
 		>
 			{children}
