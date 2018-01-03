@@ -6,5 +6,6 @@
 
 * [Start Learning React](https://egghead.io/courses/start-learning-react) -- [react-app](https://bitbucket.org/agokadze/react-lessons/src/1bf223db91ba4604894d51e088048e7df34daf24/react-app/?at=master)
 * [Getting Started with Redux](https://egghead.io/courses/getting-started-with-redux) -- [redux-app](https://bitbucket.org/agokadze/react-lessons/src/1bf223db91ba4604894d51e088048e7df34daf24/redux-app/?at=master)
+* [Building React Applications with Idiomatic Redux](https://egghead.io/courses/building-react-applications-with-idiomatic-redux) -- [idiomatic-redux-app](https://bitbucket.org/agokadze/react-lessons/src/c74227737912752e024cf7351d14f82d7a7580b0/idiomatic-redux-app/?at=master)
 
 
