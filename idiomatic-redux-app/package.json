@@ -4,17 +4,12 @@
   "description": "Idiomatic Redux App",
   "author": "Jakub Siemiatkowski <kuba@saskla.cz>",
   "scripts": {
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/siemiatj/idiomatic-redux-app.git"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/siemiatj/idiomatic-redux-app/issues"
-  },
-  "homepage": "https://saskla.cz",
   "dependencies": {
     "babel-polyfill": "^6.3.14",
     "lodash": "^4.17.4",
@@ -23,7 +18,9 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-redux": "^5.0.6",
-    "redux": "^3.1.2"
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.1.2",
+    "react-scripts": "1.0.17"
   },
   "devDependencies": {
     "babel-core": "^6.3.15",
