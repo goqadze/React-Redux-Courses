@@ -6,7 +6,18 @@ import { createStore } from 'redux';
 import todoApp from './reducers';
 import App from './components/App';
 
-let store = createStore(todoApp);
+const persistedState = {
+  todos: [{
+    id: '-1',
+    text: 'Welcome back!',
+    completed: false
+  }]
+}
+
+let store = createStore(
+  todoApp,
+  persistedState
+);
 
 render(
   <Provider store={store}>
