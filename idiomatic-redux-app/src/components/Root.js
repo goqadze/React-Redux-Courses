@@ -4,13 +4,15 @@ import App from './App';
 import {
   BrowserRouter as Router,
   Route,
-  Link
 } from 'react-router-dom';
 
 const Root = ({ store }) => (
   <Provider store={store}>
     <Router>
-      <Route path='/' component={App} />
+      <div>
+        <Route exact={true} path='/' component={App} />
+        <Route exact={true} path='/:filter' component={App} />
+      </div>
     </Router>
   </Provider>
 )
