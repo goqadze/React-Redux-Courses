@@ -17,6 +17,8 @@
   "homepage": "https://saskla.cz",
   "dependencies": {
     "babel-polyfill": "^6.3.14",
+    "lodash": "^4.17.4",
+    "node-uuid": "^1.4.8",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
