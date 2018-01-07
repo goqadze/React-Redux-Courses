@@ -9,7 +9,9 @@ import {
 
 const Root = ({ store }) => (
   <Provider store={store}>
-    <App />
+    <Router>
+      <Route path='/' component={App} />
+    </Router>
   </Provider>
 )
 
