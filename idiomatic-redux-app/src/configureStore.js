@@ -35,7 +35,7 @@ const configureStore = () => {
   const middlewares = [promise];
 
   if (process.env.NODE_ENV !== 'production') {
-    middlewares.push(promise);
+    middlewares.push(logger);
   }
 
   wrapDispatchWithMiddlewares(store, middlewares);
