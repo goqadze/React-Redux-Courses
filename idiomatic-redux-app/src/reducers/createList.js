@@ -7,11 +7,10 @@ const createList = (filter) => {
         return filter === action.filter ? 
           action.response.map(todo => todo.id) :
           state;
-      case 'ADD_TODOS_SUCCESS':
+      case 'ADD_TODO_SUCCESS':
         return filter !== 'completed' ?
           [...state, action.response.id] :
           state;
-      case 'TOGGLE_TODOS_SUCCESS':
       default:
         return state;
     }
