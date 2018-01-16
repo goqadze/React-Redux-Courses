@@ -15,7 +15,6 @@ export const fetchTodos = (filter) => (dispatch, getState) => {
 
   return api.fetchTodos(filter).then(
     response => {
-      console.log(response);
       dispatch({
         type: 'FETCH_TODOS_SUCCESS',
         filter,
@@ -44,6 +43,6 @@ export const toggleTodo = (id) => (dispatch) =>
   api.toggleTodo(id).then(response => {
     dispatch({
       type: 'TOGGLE_TODO_SUCCESS',
-      id,
+      response: normalize(response, schema.todo)
     });
   });

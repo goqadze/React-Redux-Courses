@@ -9,7 +9,6 @@ export default class NotFound extends Component {
   state = {}
 
   render() {
-    console.log('gelaaa');
     const { className, ...props } = this.props;
     return (
       <div className={classnames('NotFound', className)} {...props}>
