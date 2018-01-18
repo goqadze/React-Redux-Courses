@@ -30,7 +30,7 @@ Run `git tag` or `git tag -n` with messages for list of all available tags
 Run `git checkout <tagname>` to move your current branch to a state at specified
 tag.
 
-### Checking what you're missing
+### Checking difference
 
 Run `git diff <tagname> <course-last-tagname>` to see how is `course-last-tagname` state of the repo different
 from the `tagname` state.
