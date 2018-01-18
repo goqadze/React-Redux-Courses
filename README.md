@@ -35,7 +35,7 @@ tag.
 Run `git diff <tagname> <course-last-tagname>` to see how is `course-last-tagname` state of the repo different
 from the `tagname` state.
 
-## Implementing Redux Store, Dispatching Actions Asynchronously with Thunks Raw
-  https://gist.github.com/goqadze/4e35f8bce7c9d1cef2da11e7b4424c6d
+#### Implementing Redux Store, Dispatching Actions Asynchronously with Thunks Raw
+     https://gist.github.com/goqadze/4e35f8bce7c9d1cef2da11e7b4424c6d
 
 
