@@ -9,3 +9,30 @@
 * [Building React Applications with Idiomatic Redux](https://egghead.io/courses/building-react-applications-with-idiomatic-redux) -- [idiomatic-redux-app](https://bitbucket.org/agokadze/react-lessons/src/c74227737912752e024cf7351d14f82d7a7580b0/idiomatic-redux-app/?at=master)
 
 
+# Running
+
+To start a dev server at `localhost:3000` run: 
+
+```
+cd [react-app|redux-app|idiomatic-redux-app]
+npm install
+npm start
+```
+
+Git repository of this projects contains tags for every tutorials so
+that it's really easy to follow with what happened, where and why.
+
+### See all tags
+
+Run `git tag` for list of all available tags
+
+### Checkout repo at tag
+
+Run `git checkout <tagname>` to move your current branch to a state at specified
+tag.
+
+### Checking what you're missing
+
+Run `git diff <tagname>` to see how is your current state of the repo different
+from the `tagname` state.
+
