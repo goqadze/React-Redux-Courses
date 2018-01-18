@@ -4,9 +4,9 @@
 
 #### Egghead.io Tutorials
 
-* [Start Learning React](https://egghead.io/courses/start-learning-react) -- [react-app](https://bitbucket.org/agokadze/react-lessons/src/master/react-app/?at=master)
-* [Getting Started with Redux](https://egghead.io/courses/getting-started-with-redux) -- [redux-app](https://bitbucket.org/agokadze/react-lessons/src/master/redux-app/?at=master)
-* [Building React Applications with Idiomatic Redux](https://egghead.io/courses/building-react-applications-with-idiomatic-redux) -- [idiomatic-redux-app](https://bitbucket.org/agokadze/react-lessons/src/master/idiomatic-redux-app/?at=master)
+* [Start Learning React](https://egghead.io/courses/start-learning-react) -> [react-app](https://bitbucket.org/agokadze/react-lessons/src/master/react-app/?at=master)
+* [Getting Started with Redux](https://egghead.io/courses/getting-started-with-redux) -> [redux-app](https://bitbucket.org/agokadze/react-lessons/src/master/redux-app/?at=master)
+* [Building React Applications with Idiomatic Redux](https://egghead.io/courses/building-react-applications-with-idiomatic-redux) -> [idiomatic-redux-app](https://bitbucket.org/agokadze/react-lessons/src/master/idiomatic-redux-app/?at=master)
 
 
 # Running
