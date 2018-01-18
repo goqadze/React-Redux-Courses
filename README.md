@@ -19,8 +19,7 @@ npm install
 npm start
 ```
 
-Git repository of this projects contains tags for every tutorials so
-that it's really easy to follow with what happened, where and why.
+Git repository of this projects contains tags for every tutorial.
 
 ### See all tags
 
@@ -33,6 +32,6 @@ tag.
 
 ### Checking what you're missing
 
-Run `git diff <tagname>` to see how is your current state of the repo different
+Run `git diff <tagname> <course-last-tagname>` to see how is `course-last-tagname` state of the repo different
 from the `tagname` state.
 
