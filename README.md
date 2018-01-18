@@ -24,7 +24,7 @@ that it's really easy to follow with what happened, where and why.
 
 ### See all tags
 
-Run `git tag` for list of all available tags
+Run `git tag` or `git tag -n` with messages for list of all available tags
 
 ### Checkout repo at tag
 
